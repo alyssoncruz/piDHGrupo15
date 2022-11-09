@@ -5,3 +5,17 @@ width: 50px
 img.img2 {
     width: 100px
     }
+
+    img.img3 {
+        width: 100px
+        }
+        img.img4 {
+            width: 100%
+            }
+
+            
+div {
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 30px 
+}
