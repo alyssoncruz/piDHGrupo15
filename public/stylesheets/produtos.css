@@ -1,6 +1,79 @@
 img.img01 {
-    width: 1050px;
+    width: 440px;
     }
 img.img02 {
-    width: 300px
+    width: 67px;
+    flex-wrap: wrap;
+    
     }
+
+
+.d-prin {
+    padding-top: 120px;
+   
+   
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+
+.infos{
+    padding-right: 20px;
+}
+
+.inicio {
+    background-color: rgba(236, 236, 236, 0.822);
+}
+
+.principal2 {
+    display: flex;
+   
+    justify-content: space-between
+}
+
+.ajuda {
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+    justify-content: flex-end
+}
+.sessoes {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+}
+
+img.jordan {
+    width: 19px
+    }
+    
+img.SNKR {
+    width: 46px
+    }
+img.nike {
+    width: 64px
+    }
+
+
+img.pag{
+    background-color: white;
+} 
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+div {
+    
+    padding: 2px;
+    margin: 2px 
+}
