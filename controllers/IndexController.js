@@ -1,6 +1,6 @@
 const IndexController = {
     Index: (req, res)=> {
-        res.sed("Mostrar lista de produtos");
+        res.send("Mostrar lista de produtos");
     }
 }
 
