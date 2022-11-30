@@ -1,21 +1,83 @@
-img.img1 {
-width: 50px
+div {
+    
+    padding: 2px;
+    margin: 2px 
 }
 
-img.img2 {
-    width: 100px
+footer {
+    background-color: black;
+    color: white;
+}
+.inicio {
+    background-color: rgba(236, 236, 236, 0.822);
+}
+img.jordan {
+width: 19px
+}
+
+img.mapa{
+    padding-top: 120px;
+}
+
+img.SNKR {
+    width: 46px
     }
 
-    img.img3 {
-        width: 100px
-        }
-        img.img4 {
-            width: 100%
-            }
+img.nike {
+    width: 64px
+    }
+img.imaG {
+    width: 100%;
+    display: flex;
+    display: flex;
+    position:relative;
+    left: 80px;
+    }
 
-            
-div {
-    border: 3px solid gray;
-    padding: 30px;
-    margin: 30px 
+img.imaM {
+    width: 226px;
+}
+img.pag{
+    background-color: white;
+}           
+
+img.sacola{
+    width: 23px;
+}
+.header {
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+
+
+.principal2 {
+    display: flex;
+   
+    justify-content: space-between
+}
+
+.ajuda {
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+    justify-content: flex-end
+}
+.sessoes {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+
+.display1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

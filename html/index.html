@@ -5,59 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="/public/stylesheets/index.css">
 </head>
 <body>
-    <header> 
-        <div>
-        <img class= "img1" src="/public/images/index/jordan (1).svg" >
-        <img class= "img2" src="/public/images/index/snkrs.svg" >
-        <div> Ajuda </div>
-        <div> Junte-se a nós </div>
-        <div> Entrar </div>
-    </div>
+    <header class="header"> 
+        <div class="d-flex justify-content-between inicio">
+            <div>
+                <img class= "jordan" src="/public/images/index/jordan (1).svg" >
+                <img class= "SNKR" src="/public/images/index/snkrs.svg">
+            </div>    
+            <div class="ajuda">
+                <div> Ajuda </div>
+                <div> Junte-se a nós </div>
+                <div> Entrar </div>  
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between"> 
+            <div > <img class= "nike" src="/public/images/index/logo.svg" > </div>
+                <div class="sessoes" >
+                <div> Sessões </div>
+                <div> Lançamentos </div>
+                <div> Feminino </div>
+                <div> Masculino </div>
+                <div> Infantil </div>
+                <div> SNKRS</div>
+            </div>
+            <div class="d-flex">
+                <div>
+                    <form>
+                        <label for="buscar"> </label>
+                        <input type= "text" id="buscar" name= "buscar" placeholder="BUSCAR" >
+                    </form>
+                </div>
+                <div> <img class="sacola" src="/public/images/index/kisspng-computer-icons-shopping-bags-trolleys-shopping-b-shopping-bag-5acfbd97249c76.01480474152356392715.jpg" > </div>
+            </div>
+        </div>
     </header>
-
-    <div>
-        <img class= "img3" src="/public/images/index/logo.svg" >
-        <div> Sessões </div>
-        <div> Lançamentos </div>
-        <div> Feminino </div>
-        <div> Masculino </div>
-        <div> Infantil </div>
-        <div> SNKRS</div>
-    </div>
-
+    
+    
     <div> 
-        <img class= "img4" src="/public/images/index/tout-corinthians-desk.webp"> 
+        <img class= "imaG mapa" class= "mapa"src="/public/images/index/tout-corinthians-desk.webp"> 
     </div>
 
     <div>
-        <h2> Camisas de Seleções.</h2>
-        <div> <img src="/public/images/index/tout-federacoes-desk-v3.webp"> </div>
+        <h4> Camisas de Seleções.</h4>
+        <div > <img class= "imaG"src="/public/images/index/tout-federacoes-desk-v3.webp"> </div>
     </div>
     
     <div> 
-        <h2> Seleção Brasileira </h2>
-        <img src="/public/images/index/tout-selecao-brasileira2-desk-v3.webp">
+        <h4> Seleção Brasileira </h4>
+        <img class= "imaG"src="/public/images/index/tout-selecao-brasileira2-desk-v3.webp">
     </div>
 
     <div>
-        <h1> LOOKBOOK</h1>
-        <img src="/public/images/index/tout-lookbook-desk-v3.jpg">
+        <h4> LOOKBOOK</h4>
+        <img class= "imaG" src="/public/images/index/tout-lookbook-desk-v3.jpg">
     </div>
 
     <div>
-        <h1> Lançamento </h1>
-        <img src="/public/images/index/tout-mbappe-mercurial-desk.jpg">
+        <h4> Lançamento </h4>
+        <img class= "imaG" src="/public/images/index/tout-mbappe-mercurial-desk.jpg">
     </div>
 
     <div>
-        <h1> Nike Membership </h1>
-        <img src="/public/images/index/tout-membership-atletas-desk-v2.jpg">
+        <h4> Nike Membership </h4>
+        <img class= "imaG" src="/public/images/index/tout-membership-atletas-desk-v2.jpg">
     </div>
 
-    <div>
+    <div >
         <div> <h3>Conheça também</h3></div>
         <img src="/public/images/index/CARROSSEL_A.jpg">
         <img src="/public/images/index/CARROSSEL_B-v2.jpg">
@@ -65,74 +82,78 @@
         <img src="/public/images/index/CARROSSEL_D.jpg">
     </div>
 
-    <div>
-        <div><h3>NÃO PERCA</h3></div>
-        <div>
-            <div> 
-                <img src="/public/images/index/022104ID.jpg">
-                <p>Tenis Nike Revolution 6 FlyEasy Next Nature Masculino</p>
-                <p>corrida</p>
-                <p>R$219,90</p>
-            </div>
-            <div> 
-                <img src="/public/images/index/019385ID.webp">
-                <p>Tenis Nike Revolution  FlyEasy Next Nature Masculino</p>
-                <p>Corrida</p>
-                <p>R$229,90</p>
-            </div>
+    <div ><h2>NÃO PERCA</h2></div>
+    <div class="d-flex justify-content-between">
+        
+        <div > 
+            <img class="imaM" src="/public/images/index/022104ID.jpg">
+            <p>Tenis Nike Revolution 6 FlyEasy Next Nature Masculino</p>
+            <p>corrida</p>
+            <p>R$219,90</p>
         </div>
         <div> 
-            <img src="/public/images/index/013717ID.webp">
+            <img class="imaM" src="/public/images/index/019385ID.webp">
+            <p>Tenis Nike Revolution  FlyEasy Next Nature Masculino</p>
+            <p>Corrida</p>
+            <p>R$229,90</p>
+        </div>
+        
+        <div> 
+            <img class="imaM" src="/public/images/index/013717ID.webp">
             <p>Tenis Nike Court royale 2 Feminino</p>
             <p>Casual</p>
             <p>R$229,90</p>
         </div>
         <div> 
-            <img src="/public/images/index/00955615.jpg">
+            <img class="imaM" src="/public/images/index/00955615.jpg">
             <p>Tenis Nike Legend Essencial 2 Masculino</p>
             <p>Treino & Academia </p>
             <p>R$239,99</p>
         </div>
     </div>
 
-    <div>
-        <div><h3>MAIS VENDIDOS</h3></div>
-        <div>
-            <div> 
-                <img src="/public/images/index/0228530L.jpg">
-                <p>Camisa Nike Brasil 2022/23 Torcedora Pro Feminino </p>
-                <p>Futebol</p>
-                <p>R$349,99</p>
-            </div>
-            <div> 
-                <img src="/public/images/index/01113751.jpg">
-                <p>Tenis Nike Air Force 1 "7 Masculino</p>
-                <p>Casual</p>
-                <p>R$799,99</p>
-            </div>
-        </div>
+    <div><h3>MAIS VENDIDOS</h3></div>
+    <div class="d-flex justify-content-between">
+        
+        
         <div> 
-            <img src="/public/images/index/009573A1.jpg">
+            <img class="imaM"src="/public/images/index/0228530L.jpg">
+            <p>Camisa Nike Brasil 2022/23 Torcedora Pro Feminino </p>
+            <p>Futebol</p>
+            <p>R$349,99</p>
+        </div>
+
+        <div> 
+            <img class="imaM" src="/public/images/index/01113751.jpg">
+            <p>Tenis Nike Air Force 1 "7 Masculino</p>
+            <p>Casual</p>
+            <p>R$799,99</p>
+            </div>
+        
+        <div> 
+            <img class="imaM" src="/public/images/index/009573A1.jpg">
             <p>Tenis Nike Legend Essencial 2 Feminino</p>
             <p>Casual</p>
             <p>R$269,90</p>
         </div>
         <div> 
-            <img src="/public/images/index/02192351.jpg">
+            <img class="imaM" src="/public/images/index/02192351.jpg">
             <p>Camisa Nike Conrinthians I 2022/23 Torcedor Pro Masculino</p>
             <p>Futebol</p>
             <p>R$249,99</p>
         </div>
     </div>
-    <footer>
-        <div>
+
+
+    <footer class="footer">
+        <div   class="d-flex justify-content-between"> 
             <div> 
                 <p> Encontre uma loja nike</p>
                 <p> Cadastre-se para receber novidades </p>
                 <p> Cartão Presente </p>
             </div>
             <div> 
-                <p> Ajuda </p>
+                <h5> Ajuda </h5>
                 <p> Dúvidas Gerais </p>
                 <p> Encontre seu Tamanho </p>
                 <p> Eentregas </p>
@@ -144,15 +165,27 @@
                 <p> Fale Conosco </p>
             </div>
             <div>
-                <p> Sobre a nike</p>
+                <h5> Sobre a nike</h5>
                 <p> Feito para Jogar</p>
                 <p> Sustentabilidade </p>
             </div>
             <div> 
                 <div> <p> Redes Sociais </p> </div>
-                <div> <p> Formas de Pagamento </p></div>
+                <div  > 
+                    <p> Formas de Pagamento </p>
+                    <div class="d-flex justify-content-between"> 
+                    <img class="pag" src="/public/images/index/mastercard.svg">
+                    <img class="pag" src="/public/images/index/visa.svg">
+                    <img class="pag" src="/public/images/index/amex.svg">
+                    <img class="pag" src="/public/images/index/elo.svg">
+                    <img class="pag" src="/public/images/index/hipercard.svg">
+                    <img class="pag" src="/public/images/index/boleto.svg">    
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
